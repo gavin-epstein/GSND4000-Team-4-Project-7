@@ -8,3 +8,9 @@ public enum AbilityEnum
     Teleport,
     Grapple
 }
+
+public enum VerticalorHorizontal
+{
+    Vertical,
+    Horizontal
+}
