@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: bfe3f1e296c5e8f45a0793a98347f9ca
+guid: 4fd698e9a83d877498e0022975a3b55d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8621462557137499494
-    second: Fireball_Icon_0
+      213: -991988532450384287
+    second: Icicle Throw_0
+  - first:
+      213: -2789577796489179806
+    second: Icicle Throw_1
+  - first:
+      213: 6426081446476159223
+    second: Icicle Throw_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fireball_Icon_0
+      name: Icicle Throw_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 17
-        width: 168
-        height: 171
+        x: 34
+        y: 44
+        width: 119
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 665f28a648695a770800000000000000
-      internalID: 8621462557137499494
+      spriteID: 166a80e7fafbb32f0800000000000000
+      internalID: -991988532450384287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicle Throw_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 120
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d02fe16cd6949d0800000000000000
+      internalID: -2789577796489179806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicle Throw_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 43
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f890fa57070e2950800000000000000
+      internalID: 6426081446476159223
       vertices: []
       indices: 
       edges: []
@@ -147,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Fireball_Icon_0: 8621462557137499494
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
