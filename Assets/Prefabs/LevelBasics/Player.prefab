@@ -193,7 +193,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 5894421575132730454, guid: 3c415bcf1ae266f4db72ef9972fcae6e, type: 3}
-    - {fileID: 2275297773169260780, guid: bcf7ff5da137e76498e22962dafbae45, type: 3}
+    - {fileID: 6596028527080539269, guid: c6cc46e7a60e0794da63b0b38ff03dfb, type: 3}
 --- !u!50 &776274631939886950
 Rigidbody2D:
   serializedVersion: 5
