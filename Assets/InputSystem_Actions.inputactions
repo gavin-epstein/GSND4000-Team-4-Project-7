@@ -24,7 +24,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Grapple",
+                    "name": "UseSpell",
                     "type": "Button",
                     "id": "19174dcd-dee5-4243-be84-f43381f88726",
                     "expectedControlType": "",
@@ -233,7 +233,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Grapple",
+                    "action": "UseSpell",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
