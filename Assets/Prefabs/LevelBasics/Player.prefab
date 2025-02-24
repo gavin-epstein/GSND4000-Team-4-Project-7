@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: -2280151780252568112}
   - component: {fileID: 920284861699141555}
   - component: {fileID: -4849937843806942488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -595,16 +595,36 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2198979688284702785, guid: e08b6127e4803a948b327e40e0072dda, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198979688284702785, guid: e08b6127e4803a948b327e40e0072dda, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994660885591729214, guid: e08b6127e4803a948b327e40e0072dda, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7659955656339010116, guid: e08b6127e4803a948b327e40e0072dda, type: 3}
       propertyPath: m_Name
       value: PhasingModule
       objectReference: {fileID: 0}
     - target: {fileID: 7659955656339010116, guid: e08b6127e4803a948b327e40e0072dda, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659955656339010116, guid: e08b6127e4803a948b327e40e0072dda, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8333743269314633135, guid: e08b6127e4803a948b327e40e0072dda, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8996836103844353889, guid: e08b6127e4803a948b327e40e0072dda, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
