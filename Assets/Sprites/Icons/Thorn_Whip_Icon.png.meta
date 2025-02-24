@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Thorn_Whip_Icon_0: -6213709467496346134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
