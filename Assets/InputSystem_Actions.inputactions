@@ -49,6 +49,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Parry",
+                    "type": "Button",
+                    "id": "ef6b2339-a8e7-4436-9037-3e449e7b5e32",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -230,6 +239,17 @@
                 },
                 {
                     "name": "",
+                    "id": "3f85a911-24e6-4b5b-ad1a-ce873d64c308",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "5c6f1911-e4ec-4950-b38d-a03fd6fad3ab",
                     "path": "<Keyboard>/q",
                     "interactions": "",
@@ -241,12 +261,12 @@
                 },
                 {
                     "name": "",
-                    "id": "cfd8b402-48c6-456c-9e5c-8f9618e337d1",
-                    "path": "<Keyboard>/shift",
+                    "id": "ca7a4ac6-822f-4c2e-8033-ed756717a513",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Dash",
+                    "action": "Parry",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
