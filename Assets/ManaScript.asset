@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: ManaScript
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-216.0,"y":11.0},"guid":"0addf9ca-40b8-45a3-9c76-86a0a8cd6d28","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"chainable":false,"member":{"name":"value","parameterTypes":null,"targetType":"UnityEngine.UI.Slider","targetTypeName":"UnityEngine.UI.Slider","$version":"A"},"defaultValues":{"target":null,"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":53.0,"y":10.0},"guid":"1dd6baca-019e-4642-aba5-266356152b1b","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Mana","$type":"System.String"}},"position":{"x":-128.0,"y":162.0},"guid":"e61a1ce1-256b-44d8-87a0-6a4b667dec0f","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"d1a9fd47-ecfc-4261-ad2e-d66b7ba98bcb","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"23cde248-9d11-465e-ac4d-cb4cedc317c9","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
