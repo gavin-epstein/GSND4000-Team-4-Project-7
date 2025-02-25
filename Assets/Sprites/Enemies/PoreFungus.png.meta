@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PoreFungus_0: -4026004559478528003
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
