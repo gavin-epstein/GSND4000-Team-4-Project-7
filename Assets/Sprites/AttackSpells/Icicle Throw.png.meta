@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 822b431f5f2074a4aa9e7a28eb2a934c
+guid: fd366698ad5694e42a2f1a1a934481ef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4026004559478528003
-    second: PoreFungus_0
+      213: -991988532450384287
+    second: Icicle Throw_0
+  - first:
+      213: -2789577796489179806
+    second: Icicle Throw_1
+  - first:
+      213: 6426081446476159223
+    second: Icicle Throw_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PoreFungus_0
+      name: Icicle Throw_0
       rect:
         serializedVersion: 2
-        x: 92
-        y: 39
-        width: 611
-        height: 933
+        x: 34
+        y: 44
+        width: 119
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +147,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df7ed201f22c028c0800000000000000
-      internalID: -4026004559478528003
+      spriteID: 166a80e7fafbb32f0800000000000000
+      internalID: -991988532450384287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicle Throw_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 120
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d02fe16cd6949d0800000000000000
+      internalID: -2789577796489179806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicle Throw_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 43
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f890fa57070e2950800000000000000
+      internalID: 6426081446476159223
       vertices: []
       indices: 
       edges: []
@@ -151,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PoreFungus_0: -4026004559478528003
+      Icicle Throw_0: -991988532450384287
+      Icicle Throw_1: -2789577796489179806
+      Icicle Throw_2: 6426081446476159223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
