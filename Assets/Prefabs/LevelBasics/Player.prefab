@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: -2280151780252568112}
   - component: {fileID: 920284861699141555}
   - component: {fileID: -4849937843806942488}
-  - component: {fileID: 7945236065687978107}
+  - component: {fileID: 8124131288693768793}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -528,7 +528,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.85716057, y: 2.4304557}
   m_EdgeRadius: 0
---- !u!114 &7945236065687978107
+--- !u!114 &8124131288693768793
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -543,7 +543,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 6551b04d9a3572a47abaa5e2dd154450, type: 2}
+    - {fileID: 11400000, guid: f1fe5ecb23d6c14499189ea9642d0613, type: 2}
 --- !u!1001 &3645404647844996330
 PrefabInstance:
   m_ObjectHideFlags: 0

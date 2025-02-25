@@ -2618,11 +2618,32 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &688077407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2275297773169260780, guid: bcf7ff5da137e76498e22962dafbae45, type: 3}
+  m_PrefabInstance: {fileID: 4779243844821799732}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &688077408 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6895367337117005374, guid: bcf7ff5da137e76498e22962dafbae45, type: 3}
   m_PrefabInstance: {fileID: 4779243844821799732}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &688077412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688077407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 43f50e44e06b3474f9189f4507b88755, type: 2}
 --- !u!1 &781664843 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4796512785485879606, guid: 107d5715f9696054bac97ea39ee2cb14, type: 3}
@@ -3512,6 +3533,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747907527}
   m_CullTransparentMesh: 1
+--- !u!1 &1773388955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1773388956}
+  - component: {fileID: 1773388958}
+  - component: {fileID: 1773388957}
+  m_Layer: 0
+  m_Name: Mana Symbol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1773388956
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773388955}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2072505097}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -74.70996, y: 0}
+  m_SizeDelta: {x: 33.2917, y: 30.818}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1773388957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773388955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -9075650873159068883, guid: 8a3ee243dccc8d84383fa71cd5cab118, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1773388958
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773388955}
+  m_CullTransparentMesh: 1
 --- !u!1 &1820701382
 GameObject:
   m_ObjectHideFlags: 0
@@ -3567,8 +3663,11 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"StrongAttackCooldown","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AreaAttackCooldown","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GrappleCooldown","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Health","value":{"$content":100,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 6205863145975355648, guid: 3e77545c7e85c6e469c201eafefdca15, type: 3}
 --- !u!4 &1820701385
 Transform:
   m_ObjectHideFlags: 0
@@ -4058,6 +4157,7 @@ RectTransform:
   m_Children:
   - {fileID: 33904342}
   - {fileID: 589662651}
+  - {fileID: 1773388956}
   m_Father: {fileID: 157061684}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4345,6 +4445,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyHealth
       objectReference: {fileID: 0}
+    - target: {fileID: 6281239395908115145, guid: 107d5715f9696054bac97ea39ee2cb14, type: 3}
+      propertyPath: m_HandleRect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6281239395908115145, guid: 107d5715f9696054bac97ea39ee2cb14, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 5936167960737268000, guid: 107d5715f9696054bac97ea39ee2cb14, type: 3}
@@ -4491,7 +4599,10 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 4470608163412774648, guid: bcf7ff5da137e76498e22962dafbae45, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2275297773169260780, guid: bcf7ff5da137e76498e22962dafbae45, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 688077412}
   m_SourcePrefab: {fileID: 100100000, guid: bcf7ff5da137e76498e22962dafbae45, type: 3}
 --- !u!1001 &6889670381499901761
 PrefabInstance:
