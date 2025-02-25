@@ -287,9 +287,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -6.4
       objectReference: {fileID: 0}
+    - target: {fileID: 4570767892533275848, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Orientation","value":{"$content":"Vertical","$type":"VerticalorHorizontal"},"typeHandle":{"Identification":"VerticalorHorizontal,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 5592283699222494397, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
       propertyPath: m_text
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592283699222494397, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6741155315906447139, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
       propertyPath: m_Sprite
@@ -302,6 +311,10 @@ PrefabInstance:
     - target: {fileID: 7919226269479357833, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
       propertyPath: m_text
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7919226269479357833, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8574688992100803326, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
       propertyPath: m_Name
@@ -405,13 +418,6 @@ PrefabInstance:
     - target: {fileID: 3473582820134657243, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4570767892533275848, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"VariableName","value":{"$content":"BasicAttackCooldown","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MaxValue","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Orientation","value":{"$content":"Vertical","$type":"VerticalorHorizontal"},"typeHandle":{"Identification":"VerticalorHorizontal,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5592283699222494397, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
       propertyPath: m_text
@@ -536,9 +542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4570767892533275848, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"VariableName","value":{"$content":"GrappleCooldown","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MaxValue","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Orientation","value":{"$content":"Vertical","$type":"VerticalorHorizontal"},"typeHandle":{"Identification":"VerticalorHorizontal,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Orientation","value":{"$content":"Vertical","$type":"VerticalorHorizontal"},"typeHandle":{"Identification":"VerticalorHorizontal,
         Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5592283699222494397, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
@@ -665,13 +669,6 @@ PrefabInstance:
     - target: {fileID: 3473582820134657243, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4570767892533275848, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"VariableName","value":{"$content":"StrongAttackCooldown","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MaxValue","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Orientation","value":{"$content":"Vertical","$type":"VerticalorHorizontal"},"typeHandle":{"Identification":"VerticalorHorizontal,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5592283699222494397, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
       propertyPath: m_text
@@ -800,9 +797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4570767892533275848, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"VariableName","value":{"$content":"AreaAttackCooldown","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MaxValue","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Orientation","value":{"$content":"Vertical","$type":"VerticalorHorizontal"},"typeHandle":{"Identification":"VerticalorHorizontal,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Orientation","value":{"$content":"Vertical","$type":"VerticalorHorizontal"},"typeHandle":{"Identification":"VerticalorHorizontal,
         Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6741155315906447139, guid: 58c92ee08863ac54f8468f2128aec4c9, type: 3}
