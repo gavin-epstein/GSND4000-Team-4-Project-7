@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 28455c9a044ce7845a811b4a010cbe3e
+guid: d920576328e67c54fa19093afb9cc669
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -76,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -388,7 +388,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -397,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Phase_Icon_0: 2184963297970265127
+      Phase_Icon_1: 1230193591351490007
+      Phase_Icon_10: 4343614517726782750
+      Phase_Icon_2: -3312340644734755877
+      Phase_Icon_3: -8340615218021591940
+      Phase_Icon_4: 4156620625706656331
+      Phase_Icon_5: -5477316983150973143
+      Phase_Icon_6: 3363549360752636325
+      Phase_Icon_7: 1723782531253945131
+      Phase_Icon_8: 4903342051545289965
+      Phase_Icon_9: -5808414527434088477
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
