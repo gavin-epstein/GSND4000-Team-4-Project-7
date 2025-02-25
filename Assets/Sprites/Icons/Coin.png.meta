@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 32e54aa8c66737748aa12d234320f661
+guid: e524db46c00d39544a5153b12ff86a82
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3912867307873304775
-    second: heart-removebg-preview_0
+      213: -3338749442709606003
+    second: Coin_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: heart-removebg-preview_0
+      name: Coin_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 64
-        width: 242
-        height: 232
+        x: 51
+        y: 32
+        width: 109
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c00703d51c4d4630800000000000000
-      internalID: 3912867307873304775
+      spriteID: d81b24142116aa1d0800000000000000
+      internalID: -3338749442709606003
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      heart-removebg-preview_0: 3912867307873304775
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
