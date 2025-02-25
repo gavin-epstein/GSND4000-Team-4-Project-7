@@ -6,7 +6,10 @@ public enum AbilityEnum
     StrongAttack,
     AoEAttack,
     Teleport,
-    Grapple
+    Grapple,
+    Dash,
+    Phase,
+    Parry,
 }
 
 public enum VerticalorHorizontal
