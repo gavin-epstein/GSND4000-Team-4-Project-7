@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: dc0a76c0ff447e2489d7f9f740235897
+=======
+guid: 2be49f54f0c0fb149b4ae747368f1d21
+>>>>>>> Santi
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -147,8 +151,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
     nameFileIdTable:
       Teleport_Icon_0: -2496123486825448662
+=======
+    nameFileIdTable: {}
+>>>>>>> Santi
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
