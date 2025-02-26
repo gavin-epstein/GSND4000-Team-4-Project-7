@@ -51,7 +51,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SecondsBetweenSpawns","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 7093378174996140270, guid: 384cb6b41db1b69438ebf9985dc6f1f9, type: 3}
+    - {fileID: 5050912848918180839, guid: abeaebd9985c65c4cadf27d06942eb18, type: 3}
 --- !u!114 &5651954477875116545
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -254,6 +254,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Heavy Ranged Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 7564884454636423911, guid: 2282a2fd8bb51c14695aedd7c12444ce, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3216484750987835388, guid: fba207de8122739498acebcadb494044, type: 3}
+    - target: {fileID: 7892189421780091196, guid: 2282a2fd8bb51c14695aedd7c12444ce, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7892189421780091196, guid: 2282a2fd8bb51c14695aedd7c12444ce, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1266,6 +1278,18 @@ PrefabInstance:
     - target: {fileID: 7240085427202847334, guid: 0017127ffedf32d4c9d5fa5b438ee5da, type: 3}
       propertyPath: m_Name
       value: FlyingAoeEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564884454636423911, guid: 0017127ffedf32d4c9d5fa5b438ee5da, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1463296376664700679, guid: 78e98291100c3c244994f090e58def6d, type: 3}
+    - target: {fileID: 7892189421780091196, guid: 0017127ffedf32d4c9d5fa5b438ee5da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7892189421780091196, guid: 0017127ffedf32d4c9d5fa5b438ee5da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2786,11 +2810,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 354507075426058552, guid: 107d5715f9696054bac97ea39ee2cb14, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 354507075426058552, guid: 107d5715f9696054bac97ea39ee2cb14, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1036498891598764405, guid: 107d5715f9696054bac97ea39ee2cb14, type: 3}
       propertyPath: m_Color.b
@@ -4711,6 +4735,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ranged Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 7564884454636423911, guid: 93ba69441a1f67c4d89ea34252345572, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4026004559478528003, guid: 822b431f5f2074a4aa9e7a28eb2a934c, type: 3}
+    - target: {fileID: 7892189421780091196, guid: 93ba69441a1f67c4d89ea34252345572, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7892189421780091196, guid: 93ba69441a1f67c4d89ea34252345572, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4891,8 +4927,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 620613462190477593, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6371030673818175529, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7314499171693063119, guid: 630f2b05342e03747bed4c000d69c63e, type: 3}
     - target: {fileID: 6705206246655425414, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Health","value":{"$content":100,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
@@ -4900,13 +4940,13 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HealthBarEnemy","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Distance","value":{"$content":4,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Speed","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bullet","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"shootCooldown","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6705206246655425414, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6705206246655425414, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
@@ -4915,6 +4955,14 @@ PrefabInstance:
     - target: {fileID: 6705206246655425414, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912157416863168808, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912157416863168808, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8912157416863168808, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
       propertyPath: m_LocalPosition.x
