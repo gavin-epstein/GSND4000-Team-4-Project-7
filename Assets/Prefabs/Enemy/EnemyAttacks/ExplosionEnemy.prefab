@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6559939038752741100}
   - component: {fileID: 3806856686204449612}
   - component: {fileID: -8628134696732988708}
-  - component: {fileID: 8631747219902305664}
-  m_Layer: 8
-  m_Name: Explosion
+  - component: {fileID: -4363620965685724606}
+  m_Layer: 7
+  m_Name: ExplosionEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,7 +52,7 @@ CircleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 1216
+    m_Bits: 1792
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -159,7 +159,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &8631747219902305664
+--- !u!50 &-4363620965685724606
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -181,7 +181,7 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 1216
+    m_Bits: 1792
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
