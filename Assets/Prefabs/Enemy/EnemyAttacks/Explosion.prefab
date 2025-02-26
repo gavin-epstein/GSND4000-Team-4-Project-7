@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6559939038752741100}
   - component: {fileID: 3806856686204449612}
   - component: {fileID: -8628134696732988708}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ CircleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 1088
+    m_Bits: 1536
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2

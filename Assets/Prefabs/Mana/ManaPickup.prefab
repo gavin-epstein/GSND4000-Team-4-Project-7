@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3490547568251062873}
   - component: {fileID: 4915311040173838719}
   - component: {fileID: 688471279527068689}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: ManaPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
