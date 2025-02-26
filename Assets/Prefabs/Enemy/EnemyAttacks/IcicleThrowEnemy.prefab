@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3856531926307829528}
   - component: {fileID: 8089201876276817880}
   m_Layer: 7
-  m_Name: IcicleThrow
+  m_Name: IcicleThrowEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,14 +106,14 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 0.5
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 1536
+    m_Bits: 1792
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -134,7 +134,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 1536
+    m_Bits: 1792
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2

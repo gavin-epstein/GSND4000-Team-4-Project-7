@@ -112,7 +112,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3707036407414706832}
   m_Layer: 9
-  m_Name: Normal Ranged Enemy
+  m_Name: Heavy Ranged Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -401,7 +401,7 @@ PrefabInstance:
     - target: {fileID: 9219266923380031514, guid: b7f46d3aea67ed44a94bfddb4a517334, type: 3}
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
-      objectReference: {fileID: 8444748082453470017, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      objectReference: {fileID: 9138467511689147504, guid: a22ebcad429371843a9fc6824c29ca81, type: 3}
     m_RemovedComponents:
     - {fileID: 7092479433969618557, guid: b7f46d3aea67ed44a94bfddb4a517334, type: 3}
     m_RemovedGameObjects: []
