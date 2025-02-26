@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Prefabs/Enemy/Enemy.prefab.meta
 guid: 052bb1bfde62c9c40821cbca131ad5b3
+========
+guid: 0a762c52b6037f54eaa0cfdbb1f2130e
+>>>>>>>> Stashed changes:Assets/Prefabs/Enemy/EnemyAttacks/Explosion.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
