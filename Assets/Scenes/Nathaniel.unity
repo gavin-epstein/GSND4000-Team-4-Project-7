@@ -294,7 +294,7 @@ PrefabInstance:
     - target: {fileID: 1821561934875636262, guid: 072dce7e720f54949aad41adfdc6d23c, type: 3}
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
-      objectReference: {fileID: 4480847459158816059, guid: 3ce5f8b80e0cb314fbf8b215ed0ba36b, type: 3}
+      objectReference: {fileID: 8444748082453470017, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
     - target: {fileID: 2875431441095903029, guid: 072dce7e720f54949aad41adfdc6d23c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.87
@@ -2960,11 +2960,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 354507075426058552, guid: 107d5715f9696054bac97ea39ee2cb14, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 354507075426058552, guid: 107d5715f9696054bac97ea39ee2cb14, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1036498891598764405, guid: 107d5715f9696054bac97ea39ee2cb14, type: 3}
       propertyPath: m_Color.b
@@ -5154,6 +5154,63 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 688077412}
   m_SourcePrefab: {fileID: 100100000, guid: bcf7ff5da137e76498e22962dafbae45, type: 3}
+--- !u!1001 &6828194279337071857
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4769393898118960336, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.518
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769393898118960336, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769393898118960336, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769393898118960336, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769393898118960336, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769393898118960336, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769393898118960336, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769393898118960336, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769393898118960336, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769393898118960336, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444748082453470017, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
+      propertyPath: m_Name
+      value: LightningBolt
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2bb97a252423dd4cacd95d23fb59c9b, type: 3}
 --- !u!1001 &8654762177084925825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5165,6 +5222,10 @@ PrefabInstance:
     - target: {fileID: 620613462190477593, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
       propertyPath: m_Name
       value: Enemy Sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 620613462190477593, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6705206246655425414, guid: 1e0ebedc37ed0c44fbd596a95f51e265, type: 3}
       propertyPath: _data._json
@@ -5311,3 +5372,4 @@ SceneRoots:
   - {fileID: 238334142}
   - {fileID: 141436142}
   - {fileID: 2045243693}
+  - {fileID: 6828194279337071857}
