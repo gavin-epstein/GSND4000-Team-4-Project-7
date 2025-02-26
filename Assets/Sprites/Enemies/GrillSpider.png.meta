@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GrillSpider_0: -7314499171693063119
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

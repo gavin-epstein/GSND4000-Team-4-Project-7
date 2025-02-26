@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 1471655156606805330}
   - component: {fileID: 7654097148155019371}
   - component: {fileID: 7994484380174611606}
-  - component: {fileID: 2133393755451310264}
   m_Layer: 8
   m_Name: LightningBolt
   m_TagString: Untagged
@@ -198,19 +197,3 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 0d9472ba0f216fa478db7fe645228c2e, type: 2}
---- !u!114 &2133393755451310264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3294711368097438908}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: b2d97a3d4bcbdb84987ae989c1c60236, type: 2}
